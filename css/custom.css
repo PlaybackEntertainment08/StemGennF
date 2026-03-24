@@ -1,9 +1,3 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Glowix - Plastic Surgery & Beauty Clinic HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -6270,5 +6264,46 @@ header.main-header .header-sticky.active{
 
 	.error-page-image img{
         max-width: 80%;
+    }
+}
+
+.awards-section {
+    background: #f6f2ee;
+    padding: 50px 0;
+}
+
+.award-box {
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.award-box img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.award-box p {
+    font-size: 13px;
+    color: #6b6b6b;
+    line-height: 1.6;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Hover effect (premium feel) */
+.award-box:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+    .award-box img {
+        width: 70px;
+        height: 70px;
     }
 }
