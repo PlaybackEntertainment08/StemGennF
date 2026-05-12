@@ -1085,7 +1085,7 @@ header.main-header .header-sticky.active{
 
 .about-experience-list,
 .about-experience-image{
-	width: calc(50% - 15px);
+	/* width: calc(50% - 15px); */
 }
 
 .about-experience-list ul{
@@ -2829,7 +2829,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-team{
-	padding: 100px 0 70px;
+	padding: 60px 0 40px;
 }
 
 .team-item{
