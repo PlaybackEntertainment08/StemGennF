@@ -550,7 +550,7 @@ header.main-header .header-sticky.active{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1em;
-	padding: 15px !important;
+	padding: 8px !important;
 	color: var(--text-color);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
